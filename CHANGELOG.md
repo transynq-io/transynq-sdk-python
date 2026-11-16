@@ -25,6 +25,6 @@ and the project uses [semantic versioning](https://semver.org/).
 - Requires Python 3.10 or later.
 - Transynq branding for README, docs and package metadata.
 
-[Unreleased]: https://github.com/qadir0108/transynq-sdk-python/compare/v1.0.1...HEAD
-[1.0.1]: https://github.com/qadir0108/transynq-sdk-python/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/qadir0108/transynq-sdk-python/releases/tag/v1.0.0
+[Unreleased]: https://github.com/transynq-io/transynq-sdk-python/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/transynq-io/transynq-sdk-python/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/transynq-io/transynq-sdk-python/releases/tag/v1.0.0

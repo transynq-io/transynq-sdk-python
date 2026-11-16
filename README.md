@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Transynq - Intelligent Transport Operations" src="https://raw.githubusercontent.com/qadir0108/transynq-sdk-python/main/assets/brand/transynq-readme-banner.png" width="720">
+  <img alt="Transynq - Intelligent Transport Operations" src="https://raw.githubusercontent.com/transynq-io/transynq-sdk-python/main/assets/brand/transynq-readme-banner.png" width="720">
 </p>
 
 <h1 align="center">Python SDK for the Transynq TMS API</h1>
@@ -7,13 +7,13 @@
 <p align="center"><em>Intelligent Transport Operations</em></p>
 
 <p align="center">
-  <a href="https://github.com/qadir0108/transynq-sdk-python/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/qadir0108/transynq-sdk-python/actions/workflows/ci.yml/badge.svg?branch=main"></a>
-  <a href="https://github.com/qadir0108/transynq-sdk-python/actions/workflows/release.yml"><img alt="Release" src="https://github.com/qadir0108/transynq-sdk-python/actions/workflows/release.yml/badge.svg"></a>
+  <a href="https://github.com/transynq-io/transynq-sdk-python/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/transynq-io/transynq-sdk-python/actions/workflows/ci.yml/badge.svg?branch=main"></a>
+  <a href="https://github.com/transynq-io/transynq-sdk-python/actions/workflows/release.yml"><img alt="Release" src="https://github.com/transynq-io/transynq-sdk-python/actions/workflows/release.yml/badge.svg"></a>
   <a href="https://pypi.org/project/transynq/"><img alt="PyPI" src="https://img.shields.io/pypi/v/transynq?logo=pypi&logoColor=white&color=2563EB"></a>
   <a href="https://pypi.org/project/transynq/"><img alt="Downloads" src="https://img.shields.io/pypi/dm/transynq?color=06B6D4"></a>
   <img alt="Runtime" src="https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-3776AB?logo=python&logoColor=white">
-  <a href="https://github.com/qadir0108/transynq-sdk-python/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-8B5CF6"></a>
-  <a href="https://github.com/qadir0108/transynq-sdk-python/tree/main/docs/"><img alt="Docs" src="https://img.shields.io/badge/docs-guides-2563EB"></a>
+  <a href="https://github.com/transynq-io/transynq-sdk-python/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-8B5CF6"></a>
+  <a href="https://github.com/transynq-io/transynq-sdk-python/tree/main/docs/"><img alt="Docs" src="https://img.shields.io/badge/docs-guides-2563EB"></a>
   <img alt="API operations" src="https://img.shields.io/badge/API%20operations-705-0B1220">
 </p>
 
@@ -23,7 +23,7 @@ optimistic concurrency, file transfer and long-running operations handled for yo
 
 - Package: `transynq` - version 1.0.1 (semantic versioning, independent of the API version)
 - Generated from the Transynq API OpenAPI 3.1 contract v1.0.0 plus a hand-written core
-- Licence: [MIT](https://github.com/qadir0108/transynq-sdk-python/blob/main/LICENSE)
+- Licence: [MIT](https://github.com/transynq-io/transynq-sdk-python/blob/main/LICENSE)
 
 ## Requirements
 
@@ -70,28 +70,28 @@ who = client.authentication.get_api_client()   # {"companyId": ..., "description
 print(who.data.json())
 ```
 
-See [docs/authentication.md](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/authentication.md) for sessions, CSRF and driver tokens.
+See [docs/authentication.md](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/authentication.md) for sessions, CSRF and driver tokens.
 
 ## Documentation
 
-- [Getting started](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/getting-started.md)
-- [Authentication](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/authentication.md)
-- [Configuration](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/configuration.md)
-- [Error handling](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/error-handling.md)
-- [Pagination and grid queries](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/pagination.md)
-- [Concurrency (ETag / If-Match)](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/concurrency.md)
-- [Idempotency](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/idempotency.md)
-- [Long-running operations](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/long-running-operations.md)
-- [File upload and download](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/files.md)
-- [Logging and observability](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/logging-and-observability.md)
-- [Dates, money and enums (type mapping)](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/types.md)
-- [Testing your integration](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/testing.md)
-- [Versioning and compatibility](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/versioning.md)
-- [Troubleshooting and FAQ](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/troubleshooting.md)
-- [Resource index (every operation, generated)](https://github.com/qadir0108/transynq-sdk-python/blob/main/docs/resources/README.md)
+- [Getting started](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/getting-started.md)
+- [Authentication](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/authentication.md)
+- [Configuration](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/configuration.md)
+- [Error handling](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/error-handling.md)
+- [Pagination and grid queries](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/pagination.md)
+- [Concurrency (ETag / If-Match)](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/concurrency.md)
+- [Idempotency](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/idempotency.md)
+- [Long-running operations](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/long-running-operations.md)
+- [File upload and download](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/files.md)
+- [Logging and observability](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/logging-and-observability.md)
+- [Dates, money and enums (type mapping)](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/types.md)
+- [Testing your integration](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/testing.md)
+- [Versioning and compatibility](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/versioning.md)
+- [Troubleshooting and FAQ](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/troubleshooting.md)
+- [Resource index (every operation, generated)](https://github.com/transynq-io/transynq-sdk-python/blob/main/docs/resources/README.md)
 
 Runnable samples of real flows (sign in, list and page grid rows, create a booking idempotently, update with If-Match, list
-invoices, upload a POD, wait on a long operation) are in [`examples/flows.py`](https://github.com/qadir0108/transynq-sdk-python/blob/main/examples/flows.py).
+invoices, upload a POD, wait on a long operation) are in [`examples/flows.py`](https://github.com/transynq-io/transynq-sdk-python/blob/main/examples/flows.py).
 
 The API reference is built from the docstrings with MkDocs Material + mkdocstrings (`mkdocs.yml` in this repository):
 
@@ -102,16 +102,16 @@ mkdocs build --strict   # writes site/ (not checked in)
 
 ## Support
 
-- Bugs and feature requests: [GitHub issues](https://github.com/qadir0108/transynq-sdk-python/issues) (use the templates; never paste real keys, passwords or customer data).
-- Security problems: see [SECURITY.md](https://github.com/qadir0108/transynq-sdk-python/blob/main/SECURITY.md) - do not open a public issue.
+- Bugs and feature requests: [GitHub issues](https://github.com/transynq-io/transynq-sdk-python/issues) (use the templates; never paste real keys, passwords or customer data).
+- Security problems: see [SECURITY.md](https://github.com/transynq-io/transynq-sdk-python/blob/main/SECURITY.md) - do not open a public issue.
 - When the API answers with an error, quote its correlation id (`correlationId` on the error).
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/qadir0108/transynq-sdk-python/blob/main/CONTRIBUTING.md) and the [code of conduct](https://github.com/qadir0108/transynq-sdk-python/blob/main/CODE_OF_CONDUCT.md).
+See [CONTRIBUTING.md](https://github.com/transynq-io/transynq-sdk-python/blob/main/CONTRIBUTING.md) and the [code of conduct](https://github.com/transynq-io/transynq-sdk-python/blob/main/CODE_OF_CONDUCT.md).
 
 ## Licence
 
-[MIT](https://github.com/qadir0108/transynq-sdk-python/blob/main/LICENSE) - Copyright (c) 2026 Transynq.
+[MIT](https://github.com/transynq-io/transynq-sdk-python/blob/main/LICENSE) - Copyright (c) 2026 Transynq.
 
 The Transynq name and logos are trademarks of Transynq and are not covered by the MIT licence; you may use them only to refer to Transynq.

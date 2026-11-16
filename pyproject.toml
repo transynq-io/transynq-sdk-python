@@ -23,10 +23,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/qadir0108/transynq-sdk-python"
-Documentation = "https://github.com/qadir0108/transynq-sdk-python/tree/main/docs"
-Repository = "https://github.com/qadir0108/transynq-sdk-python"
-Changelog = "https://github.com/qadir0108/transynq-sdk-python/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/transynq-io/transynq-sdk-python"
+Documentation = "https://github.com/transynq-io/transynq-sdk-python/tree/main/docs"
+Repository = "https://github.com/transynq-io/transynq-sdk-python"
+Changelog = "https://github.com/transynq-io/transynq-sdk-python/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "pytest-asyncio>=0.23", "respx>=0.21", "mypy>=1.10", "ruff>=0.5"]

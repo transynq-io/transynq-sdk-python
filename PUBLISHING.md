@@ -13,7 +13,7 @@ short-lived OIDC token and `pypa/gh-action-pypi-publish` exchanges it for an upl
    | Field | Value |
    |---|---|
    | PyPI Project Name | `transynq` |
-   | Owner | `qadir0108` |
+   | Owner | `transynq-io` |
    | Repository name | `transynq-sdk-python` |
    | Workflow name | `release.yml` |
    | Environment name | `release` |

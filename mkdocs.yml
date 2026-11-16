@@ -1,6 +1,6 @@
 site_name: Transynq Python SDK
 site_description: Official Python client for the Transynq TMS API
-repo_url: https://github.com/qadir0108/transynq-sdk-python
+repo_url: https://github.com/transynq-io/transynq-sdk-python
 docs_dir: docs
 site_dir: site
 strict: true

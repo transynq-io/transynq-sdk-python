@@ -10,4 +10,4 @@
 - Supported runtimes: Python 3.10 or later, with `httpx`, `pydantic` (v2) and `typing_extensions`. A Python version leaves the
   support matrix in a minor release after its upstream end of life.
 
-See the [changelog](https://github.com/qadir0108/transynq-sdk-python/blob/main/CHANGELOG.md) for the changes of each release.
+See the [changelog](https://github.com/transynq-io/transynq-sdk-python/blob/main/CHANGELOG.md) for the changes of each release.
