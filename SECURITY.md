@@ -4,8 +4,8 @@
 
 Please do **not** open a public issue for a security problem.
 
-Report it privately to **SECURITY-CONTACT-PLACEHOLDER** (the maintainers replace this with the security mailbox or the
-repository's private vulnerability reporting link before the first release). Include:
+Report it privately with the **Report a vulnerability** button on this repository's **Security** tab (private
+vulnerability reporting), or email **contact@transynq.io** with the subject "Security". Include:
 
 - the SDK version and language runtime version;
 - what you found and how to reproduce it (a minimal program, without real credentials or customer data);

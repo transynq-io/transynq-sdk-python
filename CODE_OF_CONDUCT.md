@@ -10,8 +10,7 @@ considered inappropriate are not tolerated.
 
 ## Enforcement
 
-Report unacceptable behaviour to **CONDUCT-CONTACT-PLACEHOLDER** (the maintainers replace this with a monitored address before
-the repository is opened to contributions). Reports are reviewed promptly and in confidence. The maintainers apply the
+Report unacceptable behaviour to **contact@transynq.io**. Reports are reviewed promptly and in confidence. The maintainers apply the
 enforcement guidelines of the Contributor Covenant 2.1 (correction, warning, temporary ban, permanent ban).
 
 ## Attribution
