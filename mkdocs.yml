@@ -1,0 +1,50 @@
+site_name: Transynq Python SDK
+site_description: Official Python client for the Transynq TMS API
+repo_url: https://github.com/qadir0108/transynq-sdk-python
+docs_dir: docs
+site_dir: site
+strict: true
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.sections
+nav:
+  - Home: README.md
+  - Getting started: getting-started.md
+  - Authentication: authentication.md
+  - Configuration: configuration.md
+  - Error handling: error-handling.md
+  - Pagination: pagination.md
+  - Concurrency: concurrency.md
+  - Idempotency: idempotency.md
+  - Long-running operations: long-running-operations.md
+  - Files: files.md
+  - Logging and observability: logging-and-observability.md
+  - Types: types.md
+  - Testing: testing.md
+  - Versioning: versioning.md
+  - Troubleshooting: troubleshooting.md
+  - Resource index: resources/README.md
+  - API reference: reference.md
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            show_source: false
+            members_order: source
+            docstring_style: sphinx
+validation:
+  links:
+    not_found: warn
+    anchors: warn
