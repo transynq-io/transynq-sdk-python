@@ -1,0 +1,82 @@
+name: release
+
+# Publishes transynq to PyPI with trusted publishing (OIDC; no API token).
+# Trigger: a GitHub release with tag vX.Y.Z matching `version` in pyproject.toml,
+# or a manual run (dry run by default: build, test, build sdist + wheel, twine check). See PUBLISHING.md.
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: "Build and check only (no upload to PyPI)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check the tag matches the package version
+        shell: bash
+        run: |
+          version="$(python -c 'import tomllib; print(tomllib.load(open("pyproject.toml", "rb"))["project"]["version"])')"
+          echo "Package version: ${version}"
+          if [ "${GITHUB_EVENT_NAME}" = "release" ] && [ "${GITHUB_REF_NAME}" != "v${version}" ]; then
+            echo "::error::Release tag ${GITHUB_REF_NAME} does not match package version v${version}"
+            exit 1
+          fi
+
+      - name: Install
+        run: python -m pip install -e ".[dev]" build twine
+
+      - name: Lint, type-check, test
+        run: |
+          ruff check .
+          mypy
+          pytest
+
+      - name: Build sdist and wheel
+        run: python -m build
+
+      - name: Check distributions
+        run: twine check --strict dist/*
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: python-dist
+          path: dist/
+          if-no-files-found: error
+
+  publish:
+    needs: build
+    if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.dry-run == false)
+    runs-on: ubuntu-latest
+    environment:
+      name: release
+      url: https://pypi.org/project/transynq/
+    permissions:
+      contents: read
+      id-token: write   # OIDC token for PyPI trusted publishing
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: python-dist
+          path: dist/
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
