@@ -4,11 +4,34 @@ repo_url: https://github.com/qadir0108/transynq-sdk-python
 docs_dir: docs
 site_dir: site
 strict: true
+copyright: "&copy; 2026 Transynq &middot; MIT licence &middot; Intelligent Transport Operations"
 theme:
   name: material
+  logo: assets/brand/transynq-icon-64.png
+  favicon: assets/brand/favicon.ico
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - content.code.copy
     - navigation.sections
+extra_css:
+  - assets/brand/transynq.css
 nav:
   - Home: README.md
   - Getting started: getting-started.md

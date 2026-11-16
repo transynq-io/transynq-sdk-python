@@ -7,7 +7,7 @@ name = "transynq"
 version = "1.0.0"
 description = "Official Python client for the Transynq TMS API"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = "MIT"
 license-files = ["LICENSE"]
 authors = [{ name = "Transynq" }]
@@ -24,6 +24,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/qadir0108/transynq-sdk-python"
+Documentation = "https://github.com/qadir0108/transynq-sdk-python/tree/main/docs"
 Repository = "https://github.com/qadir0108/transynq-sdk-python"
 Changelog = "https://github.com/qadir0108/transynq-sdk-python/blob/main/CHANGELOG.md"
 
@@ -33,6 +34,10 @@ docs = ["mkdocs-material>=9.5", "mkdocstrings[python]>=0.26"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/transynq"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/transynq", "tests", "README.md", "CHANGELOG.md", "LICENSE", "pyproject.toml"]
+exclude = ["assets", "docs", "site"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
@@ -51,7 +56,7 @@ init_typed = true
 
 [tool.ruff]
 line-length = 160
-target-version = "py39"
+target-version = "py310"
 src = ["src", "tests"]
 
 [tool.ruff.lint]

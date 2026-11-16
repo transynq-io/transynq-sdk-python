@@ -1,0 +1,41 @@
+/* Transynq brand colours for mkdocs-material (custom primary/accent in both schemes). */
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #2563EB;
+  --md-primary-fg-color--light: #3B82F6;
+  --md-primary-fg-color--dark: #1D4ED8;
+  --md-primary-bg-color: #FFFFFF;
+  --md-accent-fg-color: #8B5CF6;
+  --md-accent-fg-color--transparent: rgba(139, 92, 246, 0.1);
+  --md-default-bg-color: #FFFFFF;
+  --md-default-fg-color: #1F2937;
+  --md-typeset-a-color: #2563EB;
+  --md-code-bg-color: #F8FAFC;
+  --md-footer-bg-color: #0B1220;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1F2937;
+  --md-primary-fg-color--light: #2563EB;
+  --md-primary-fg-color--dark: #0B1220;
+  --md-primary-bg-color: #F8FAFC;
+  --md-accent-fg-color: #A78BFA;
+  --md-accent-fg-color--transparent: rgba(167, 139, 250, 0.1);
+  --md-default-bg-color: #0B1220;
+  --md-typeset-a-color: #60A5FA;
+  --md-code-bg-color: #1F2937;
+  --md-footer-bg-color: #0B1220;
+}
+
+.md-header {
+  border-bottom: 3px solid #2563EB;
+}
+
+.md-header__button.md-logo img {
+  border-radius: 6px;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  font-weight: 600;
+}

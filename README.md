@@ -1,8 +1,18 @@
-# Transynq Python SDK
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/qadir0108/transynq-sdk-python/main/assets/brand/transynq-logo-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/qadir0108/transynq-sdk-python/main/assets/brand/transynq-logo-light.png">
+    <img alt="Transynq" src="https://raw.githubusercontent.com/qadir0108/transynq-sdk-python/main/assets/brand/transynq-logo-light.png" width="360">
+  </picture>
+</p>
 
-The official Python client for the **Transynq TMS API** (`/api/v1`): every one of the API's 705 operations, grouped by
-area (jobs, bookings, dispatch, invoicing, customers, driver app...), with typed models, authentication, retries, typed errors,
-paging, optimistic concurrency, file transfer and long-running operations handled for you.
+<h1 align="center">Python SDK for the Transynq TMS API</h1>
+
+<p align="center"><em>Intelligent Transport Operations</em></p>
+
+The official Python client for **Transynq TMS** (`/api/v1`): all 705 operations of the API, grouped by area (jobs,
+bookings, dispatch, invoicing, customers, driver app...), with typed models, authentication, retries, typed errors, paging,
+optimistic concurrency, file transfer and long-running operations handled for you.
 
 - Package: `transynq` - version 1.0.0 (semantic versioning, independent of the API version)
 - Generated from the Transynq API OpenAPI 3.1 contract v1.0.0 plus a hand-written core
@@ -10,7 +20,7 @@ paging, optimistic concurrency, file transfer and long-running operations handle
 
 ## Requirements
 
-- Python 3.9 or later
+- Python 3.10 or later
 - `httpx`, `pydantic` (v2) and `typing_extensions` (installed automatically)
 
 ## Install
@@ -96,3 +106,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and the [code of conduct](CODE_OF_CONDUCT
 ## Licence
 
 [MIT](LICENSE) - Copyright (c) 2026 Transynq.
+
+The Transynq name and logos are trademarks of Transynq and are not covered by the MIT licence; you may use them only to refer to Transynq.
