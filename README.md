@@ -21,7 +21,7 @@ The official Python client for **Transynq TMS** (`/api/v1`): all 705 operations 
 bookings, dispatch, invoicing, customers, driver app...), with typed models, authentication, retries, typed errors, paging,
 optimistic concurrency, file transfer and long-running operations handled for you.
 
-- Package: `transynq` - version 1.0.1 (semantic versioning, independent of the API version)
+- Package: `transynq` - version 1.0.2 (semantic versioning, independent of the API version)
 - Generated from the Transynq API OpenAPI 3.1 contract v1.0.0 plus a hand-written core
 - Licence: [MIT](https://github.com/transynq-io/transynq-sdk-python/blob/main/LICENSE)
 

@@ -5,6 +5,13 @@ and the project uses [semantic versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-11-16
+
+### Changed
+
+- The project moved to the **Transynq** GitHub organization: https://github.com/transynq-io/transynq-sdk-python. Package metadata, documentation and badge links point there (old links redirect).
+- Security reports go through GitHub private vulnerability reporting or contact@transynq.io; conduct reports to contact@transynq.io.
+
 ## [1.0.1] - 2026-11-16
 
 ### Fixed
@@ -25,6 +32,7 @@ and the project uses [semantic versioning](https://semver.org/).
 - Requires Python 3.10 or later.
 - Transynq branding for README, docs and package metadata.
 
-[Unreleased]: https://github.com/transynq-io/transynq-sdk-python/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/transynq-io/transynq-sdk-python/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/transynq-io/transynq-sdk-python/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/transynq-io/transynq-sdk-python/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/transynq-io/transynq-sdk-python/releases/tag/v1.0.0
