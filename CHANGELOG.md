@@ -5,6 +5,12 @@ and the project uses [semantic versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-16
+
+### Fixed
+
+- README links to the licence, docs and examples are absolute, so they work on PyPI.
+
 ## [1.0.0] - 2026-11-16
 
 ### Added
@@ -19,5 +25,6 @@ and the project uses [semantic versioning](https://semver.org/).
 - Requires Python 3.10 or later.
 - Transynq branding for README, docs and package metadata.
 
-[Unreleased]: https://github.com/qadir0108/transynq-sdk-python/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/qadir0108/transynq-sdk-python/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/qadir0108/transynq-sdk-python/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/qadir0108/transynq-sdk-python/releases/tag/v1.0.0
