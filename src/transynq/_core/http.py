@@ -21,7 +21,7 @@ from . import jsonenc
 from .errors import ConnectionError, TimeoutError, error_from_response
 from .types import ApiResponse, FileDownload, FileUpload, Headers, RequestOptions, ResponseBody, file_name_of
 
-SDK_VERSION = "1.0.2"
+SDK_VERSION = "1.0.3"
 USER_AGENT_PREFIX = "transynq-sdk-python/"
 API_KEY_HEADER = "X-Transynq-APIKey"
 CSRF_HEADER = "X-CSRF-Token"

@@ -25,7 +25,7 @@ systems to bookings, dispatch, live tracking, driver proof of delivery, invoicin
 of the Transynq API (`/api/v1`), grouped by area, with typed models, authentication, retries, typed errors,
 paging, optimistic concurrency, file transfer and long-running operations handled for you.
 
-- Package: `transynq` - version 1.0.2 (semantic versioning, independent of the API version)
+- Package: `transynq` - version 1.0.3 (semantic versioning, independent of the API version)
 - Generated from the Transynq API OpenAPI 3.1 contract v1.0.0 plus a hand-written core
 - Licence: [MIT](https://github.com/transynq-io/transynq-sdk-python/blob/main/LICENSE)
 

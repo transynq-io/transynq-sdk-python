@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "transynq"
-version = "1.0.2"
+version = "1.0.3"
 description = "Official Python SDK for Transynq TMS, the transport management system for carriers, fleet operators, 3PLs, brokers and shippers: bookings, dispatch, live tracking, driver POD, invoicing and costing through the Transynq API."
 readme = "README.md"
 requires-python = ">=3.10"
