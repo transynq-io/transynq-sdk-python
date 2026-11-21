@@ -1,10 +1,11 @@
 site_name: Transynq Python SDK
-site_description: Official Python client for the Transynq TMS API
+site_description: "Official Python SDK for Transynq TMS, the transport management system for carriers, fleet operators, 3PLs, brokers and shippers: bookings, dispatch, live tracking, driver POD, invoicing and costing through the Transynq API."
+site_author: Transynq
 repo_url: https://github.com/transynq-io/transynq-sdk-python
 docs_dir: docs
 site_dir: site
 strict: true
-copyright: "&copy; 2026 Transynq &middot; MIT licence &middot; Intelligent Transport Operations"
+copyright: "&copy; 2026 <a href=\"https://transynq.io/\">Transynq</a> &middot; <a href=\"https://transynq.io/transport-management-system\">Transynq TMS</a> &middot; MIT licence"
 theme:
   name: material
   logo: assets/brand/transynq-icon-64.png
@@ -30,6 +31,17 @@ theme:
   features:
     - content.code.copy
     - navigation.sections
+extra:
+  social:
+    - icon: material/web
+      link: https://transynq.io/
+      name: Transynq - transport management software
+    - icon: material/truck-fast
+      link: https://transynq.io/transport-management-system
+      name: Transynq TMS - transport management system
+    - icon: fontawesome/brands/github
+      link: https://github.com/transynq-io/transynq-sdk-python
+      name: Transynq Python SDK on GitHub
 extra_css:
   - assets/brand/transynq.css
 nav:

@@ -5,16 +5,31 @@ build-backend = "hatchling.build"
 [project]
 name = "transynq"
 version = "1.0.2"
-description = "Official Python client for the Transynq TMS API"
+description = "Official Python SDK for Transynq TMS, the transport management system for carriers, fleet operators, 3PLs, brokers and shippers: bookings, dispatch, live tracking, driver POD, invoicing and costing through the Transynq API."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 license-files = ["LICENSE"]
-authors = [{ name = "Transynq" }]
+authors = [{ name = "Transynq", email = "contact@transynq.io" }]
+keywords = ["transynq", "tms", "transport-management-system", "transport-management-software", "transport", "logistics", "freight", "trucking", "fleet-management", "dispatch", "3pl", "proof-of-delivery", "shipment-tracking", "api-client", "sdk", "python", "asyncio", "httpx"]
 classifiers = [
-    "Programming Language :: Python :: 3",
-    "Typing :: Typed",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Framework :: AsyncIO",
+    "Framework :: Pydantic :: 2",
+    "Topic :: Office/Business",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP",
+    "Typing :: Typed",
 ]
 dependencies = [
     "httpx>=0.25,<1",
@@ -23,9 +38,11 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/transynq-io/transynq-sdk-python"
+Homepage = "https://transynq.io/transport-management-system"
+Website = "https://transynq.io/"
 Documentation = "https://github.com/transynq-io/transynq-sdk-python/tree/main/docs"
 Repository = "https://github.com/transynq-io/transynq-sdk-python"
+Issues = "https://github.com/transynq-io/transynq-sdk-python/issues"
 Changelog = "https://github.com/transynq-io/transynq-sdk-python/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]

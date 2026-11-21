@@ -5,6 +5,10 @@ and the project uses [semantic versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+
+- README, package metadata and documentation link to [transynq.io](https://transynq.io/) and the [Transynq TMS](https://transynq.io/transport-management-system) page, with a clearer description, keywords and an About Transynq section.
+
 ## [1.0.2] - 2026-11-16
 
 ### Changed

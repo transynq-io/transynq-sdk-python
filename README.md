@@ -1,10 +1,10 @@
 <p align="center">
-  <img alt="Transynq - Intelligent Transport Operations" src="https://raw.githubusercontent.com/transynq-io/transynq-sdk-python/main/assets/brand/transynq-readme-banner.png" width="720">
+  <a href="https://transynq.io/"><img alt="Transynq - transport management software" src="https://raw.githubusercontent.com/transynq-io/transynq-sdk-python/main/assets/brand/transynq-readme-banner.png" width="720"></a>
 </p>
 
-<h1 align="center">Python SDK for the Transynq TMS API</h1>
+<h1 align="center">Transynq TMS Python SDK</h1>
 
-<p align="center"><em>Intelligent Transport Operations</em></p>
+<p align="center"><em>The official Python client for the <a href="https://transynq.io/transport-management-system">Transynq transport management system (TMS)</a> API</em></p>
 
 <p align="center">
   <a href="https://github.com/transynq-io/transynq-sdk-python/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/transynq-io/transynq-sdk-python/actions/workflows/ci.yml/badge.svg?branch=main"></a>
@@ -15,11 +15,15 @@
   <a href="https://github.com/transynq-io/transynq-sdk-python/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-8B5CF6"></a>
   <a href="https://github.com/transynq-io/transynq-sdk-python/tree/main/docs/"><img alt="Docs" src="https://img.shields.io/badge/docs-guides-2563EB"></a>
   <img alt="API operations" src="https://img.shields.io/badge/API%20operations-705-0B1220">
+  <a href="https://transynq.io/"><img alt="Website: transynq.io" src="https://img.shields.io/badge/website-transynq.io-2563EB"></a>
+  <a href="https://transynq.io/transport-management-system"><img alt="Transynq TMS" src="https://img.shields.io/badge/product-Transynq%20TMS-8B5CF6"></a>
 </p>
 
-The official Python client for **Transynq TMS** (`/api/v1`): all 705 operations of the API, grouped by area (jobs,
-bookings, dispatch, invoicing, customers, driver app...), with typed models, authentication, retries, typed errors, paging,
-optimistic concurrency, file transfer and long-running operations handled for you.
+The official Python SDK for [**Transynq TMS**](https://transynq.io/transport-management-system), the transport management system (TMS) from
+[Transynq](https://transynq.io/) for carriers, fleet operators, 3PLs, brokers and shippers. Use it to connect your own
+systems to bookings, dispatch, live tracking, driver proof of delivery, invoicing and costing: all 705 operations
+of the Transynq API (`/api/v1`), grouped by area, with typed models, authentication, retries, typed errors,
+paging, optimistic concurrency, file transfer and long-running operations handled for you.
 
 - Package: `transynq` - version 1.0.2 (semantic versioning, independent of the API version)
 - Generated from the Transynq API OpenAPI 3.1 contract v1.0.0 plus a hand-written core
@@ -100,6 +104,17 @@ pip install -e ".[docs]"
 mkdocs build --strict   # writes site/ (not checked in)
 ```
 
+## About Transynq
+
+[**Transynq**](https://transynq.io/) is transport management software for carriers, fleet operators, 3PLs, brokers and shippers.
+[**Transynq TMS**](https://transynq.io/transport-management-system), the Transynq transport management system, keeps the whole job on one record, from booking
+to invoice: jobs and planning, dispatch, live tracking, a driver app with electronic proof of delivery (POD), invoicing,
+costing, compliance and AI. This SDK is the official way to connect your own Python applications to it.
+
+- Website: [transynq.io](https://transynq.io/)
+- Transport management system: [transynq.io/transport-management-system](https://transynq.io/transport-management-system)
+- Contact: [contact@transynq.io](mailto:contact@transynq.io)
+
 ## Support
 
 - Bugs and feature requests: [GitHub issues](https://github.com/transynq-io/transynq-sdk-python/issues) (use the templates; never paste real keys, passwords or customer data).
@@ -115,3 +130,11 @@ See [CONTRIBUTING.md](https://github.com/transynq-io/transynq-sdk-python/blob/ma
 [MIT](https://github.com/transynq-io/transynq-sdk-python/blob/main/LICENSE) - Copyright (c) 2026 Transynq.
 
 The Transynq name and logos are trademarks of Transynq and are not covered by the MIT licence; you may use them only to refer to Transynq.
+
+---
+
+<p align="center">
+  <a href="https://transynq.io/"><img alt="Transynq" src="https://raw.githubusercontent.com/transynq-io/transynq-sdk-python/main/assets/brand/transynq-icon-64.png" width="40"></a><br>
+  <a href="https://transynq.io/transport-management-system"><strong>Transynq TMS</strong></a> &middot; transport management software by <a href="https://transynq.io/">Transynq</a><br>
+  <sub>Smarter Transport. Connected Operations.</sub>
+</p>
